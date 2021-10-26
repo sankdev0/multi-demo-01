@@ -140,9 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\edu\Параллельное программирование\Файлы_лаб_1\for-vector.cpp" />
-    <ClCompile Include="..\..\..\..\..\edu\Параллельное программирование\Файлы_лаб_1\shared-private.cpp" />
     <ClCompile Include="entry.cpp" />
+    <ClCompile Include="for-vector.cpp" />
+    <ClCompile Include="shared-private.cpp" />
     <ClCompile Include="threads-demo.cpp" />
   </ItemGroup>
   <ItemGroup>
