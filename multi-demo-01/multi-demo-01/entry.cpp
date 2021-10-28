@@ -8,14 +8,6 @@
 
 using namespace std;
 
-int demoHelloWorld(void) {
-#pragma omp parallel
-	{
-		printf("Hello, world!\n");
-	}
-	return 0;
-}
-
 int main(void)
 {
 
@@ -25,21 +17,25 @@ int main(void)
 	int ret;
 
 	//printf("1. Демо Hello World demo.\n");
-	//ret = demoHelloWorld();
+	//ret = demo_hello_world();
 
 	//printf("2. Демо указание количества потоков.\n");
-	//ret = demoNumThreads();
+	//ret = demo_num_threads();
 
 	//printf("3. Демо получение информации о потоках.\n");
-	//ret = demoThreadsInfo();
+	//ret = demo_threads_info();
 
 	//printf("4. Демо видимость переменных в потоках.\n");
 	//ret = demo_shared_private();
 
-	printf("5. Демо распараллеливание цикла for.\n");
-	ret = demo_for_vector();
+	//printf("5. Демо распараллеливание цикла for.\n");
+	//ret = demo_for_loop();
 
-	return 0;
+	printf("6. Демо распараллеливание цикла for с помощью секций (section).\n");
+	//ret = demo_no_sections();
+	ret = demo_sections();
+
+	return ret;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

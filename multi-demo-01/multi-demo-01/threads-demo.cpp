@@ -2,7 +2,15 @@
 #include <stdio.h>
 #include "common-header.h"
 
-int demoNumThreads(void)
+int demo_hello_world(void) {
+#pragma omp parallel
+	{
+		printf("Hello, world!\n");
+	}
+	return 0;
+}
+
+int demo_num_threads(void)
 {
 #pragma omp parallel num_threads(4)
 	{
@@ -11,9 +19,9 @@ int demoNumThreads(void)
 	return 0;
 }
 
-int demoThreadsInfo(void)
+int demo_threads_info(void)
 {
-	omp_set_num_threads(6);
+	omp_set_num_threads(4);
 	#pragma omp parallel
 	{
 		int numThreads = omp_get_num_threads();

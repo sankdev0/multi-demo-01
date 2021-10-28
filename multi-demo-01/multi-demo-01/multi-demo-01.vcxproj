@@ -141,7 +141,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="entry.cpp" />
-    <ClCompile Include="for-vector.cpp" />
+    <ClCompile Include="for-loop-demo.cpp" />
+    <ClCompile Include="sections-demo.cpp" />
     <ClCompile Include="shared-private.cpp" />
     <ClCompile Include="threads-demo.cpp" />
   </ItemGroup>

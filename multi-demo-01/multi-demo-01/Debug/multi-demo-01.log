@@ -1,6 +1,2 @@
-﻿  for-vector.cpp
-  shared-private.cpp
-  threads-demo.cpp
-  Создание кода...
-  LINK : не найден или не выполнена сборка C:\repos\multi-demo-01\multi-demo-01\Debug\multi-demo-01.exe при последней инкрементной компоновке; выполняется полная компоновка
-  multi-demo-01.vcxproj -> C:\repos\multi-demo-01\multi-demo-01\Debug\multi-demo-01.exe
+﻿  entry.cpp
+  multi-demo-01.vcxproj -> C:\repos\uni\multi-demo-01\multi-demo-01\Debug\multi-demo-01.exe

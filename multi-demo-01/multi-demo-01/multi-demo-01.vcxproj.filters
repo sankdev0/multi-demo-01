@@ -24,7 +24,10 @@
     <ClCompile Include="shared-private.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="for-vector.cpp">
+    <ClCompile Include="for-loop-demo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sections-demo.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

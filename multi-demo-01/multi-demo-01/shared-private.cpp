@@ -6,7 +6,7 @@ int demo_shared_private(void)
 {
 	int rank;
 
-#pragma omp parallel shared(rank) num_threads(3)
+#pragma omp parallel private(rank) num_threads(4)
 	{
 		rank = omp_get_thread_num();
 		printf("My rank = %d\n", rank);
