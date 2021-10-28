@@ -1,2 +1,3 @@
 # Project exclude paths
-/.vs/multi-demo-01/v16/Browse.VC.opendb
+/.vs
+/multi-demo-01/.vs
